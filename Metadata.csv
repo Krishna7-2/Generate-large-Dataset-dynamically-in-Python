@@ -1,0 +1,12 @@
+Fieldname,DataType,Size,,,Yellow :: mandatory columns and shoul be at the same position
+Name,String,25,,,"Green :: 
+'Fixed' if the value of the field should be of fixed length as provided e.g. Phone number should always be of 10 digits not less
+Blank:- For variable length value (max the value provided in size column)
+List:- If you want field value to be picked randomly from the list provided e.g location"
+Age,INTeger,2,Fixed,,
+Salary,INT,7,,,
+Address,varchar,20,,,
+Phone,INT,10,Fixed,,
+Location,varchar,21,"Bangalore,Chennai,Mumbai,Delhi",,
+Id,BIGINT,20,,,"USAGE:- python generate_dataset.py -i Metadata.csv -f sample.csv -nrec 100000 -d ',' -hdr Y"
+Loc_id,String,3,,,
